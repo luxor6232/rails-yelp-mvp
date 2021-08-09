@@ -23,6 +23,7 @@ module RailsYelpMvp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.i18n.available_locales = %i[en]
 
     # Configuration for the application, engines, and railties goes here.
     #
